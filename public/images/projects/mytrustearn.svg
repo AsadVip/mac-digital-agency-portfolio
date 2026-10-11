@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mte-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090E17" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="mte-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="mte-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="mte-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#151F32" />
+      <stop offset="100%" stop-color="#0F1728" />
+    </linearGradient>
+    <pattern id="mte-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(16,185,129,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#mte-bg)" />
+  <rect width="1200" height="700" fill="url(#mte-grid)" />
+
+  <!-- Outer Browser Mockup Frame -->
+  <rect x="40" y="40" width="1120" height="620" rx="8" fill="#0C121E" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Browser Chrome Top Bar -->
+  <rect x="40" y="40" width="1120" height="46" rx="8" fill="#131D2E" />
+  <circle cx="70" cy="63" r="5" fill="#EF4444" />
+  <circle cx="88" cy="63" r="5" fill="#F59E0B" />
+  <circle cx="106" cy="63" r="5" fill="#10B981" />
+
+  <!-- Browser URL Address Bar -->
+  <rect x="140" y="52" width="620" height="24" rx="4" fill="#090E17" stroke="#1E293B" stroke-width="1" />
+  <circle cx="156" cy="64" r="4" fill="#10B981" />
+  <text x="170" y="68" fill="#94A3B8" font-family="'Space Grotesk', monospace" font-size="12">https://mytrustearn.online — Daily Rewards &amp; Online Earning Platform</text>
+
+  <!-- Status Chip on Top Bar -->
+  <rect x="915" y="52" width="215" height="24" rx="4" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1" />
+  <text x="930" y="68" fill="#34D399" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="11">SERVER-VALIDATED 24H REWARDS</text>
+
+  <!-- Accent Divider Line -->
+  <rect x="40" y="86" width="1120" height="2" fill="url(#mte-emerald)" />
+
+  <!-- Site App Header -->
+  <g transform="translate(80, 110)">
+    <!-- Brand Shield Icon & Name -->
+    <rect x="0" y="0" width="34" height="34" rx="6" fill="url(#mte-emerald)" />
+    <!-- Shield Motif inside -->
+    <path d="M 17 6 L 27 10 L 27 18 Q 27 24 17 28 Q 7 24 7 18 L 7 10 Z" fill="#064E3B" stroke="#A7F3D0" stroke-width="1.5" />
+    <path d="M 13 17 L 16 20 L 21 14" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+    
+    <text x="44" y="24" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="20">MY TRUST EARN</text>
+    <text x="210" y="24" fill="#34D399" font-family="'Space Grotesk', sans-serif" font-weight="600" font-size="12">FINTECH PLATFORM</text>
+
+    <!-- Nav Items -->
+    <text x="380" y="22" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="13">Habit Counter</text>
+    <text x="500" y="22" fill="#94A3B8" font-family="sans-serif" font-weight="500" font-size="13">Streak Multipliers</text>
+    <text x="650" y="22" fill="#94A3B8" font-family="sans-serif" font-weight="500" font-size="13">Wallet Ledger</text>
+    <text x="770" y="22" fill="#94A3B8" font-family="sans-serif" font-weight="500" font-size="13">Local Payouts</text>
+
+    <!-- Payout Button -->
+    <rect x="910" y="0" width="130" height="32" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="926" y="21" fill="#38BDF8" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="12">BALANCE: 250.00</text>
+  </g>
+
+  <!-- Metric Overview Banner -->
+  <g transform="translate(80, 162)">
+    <rect width="1040" height="74" rx="6" fill="#111B2B" stroke="#1E2C42" stroke-width="1" />
+    
+    <g transform="translate(24, 18)">
+      <text x="0" y="14" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="11" font-weight="700">TOTAL REGISTERED</text>
+      <text x="0" y="38" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="800">12,500+ Members</text>
+    </g>
+    <line x1="220" y1="12" x2="220" y2="62" stroke="#1E2C42" />
+
+    <g transform="translate(245, 18)">
+      <text x="0" y="14" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="11" font-weight="700">DAILY CHECK-INS</text>
+      <text x="0" y="38" fill="#10B981" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="800">8,400+ Active</text>
+    </g>
+    <line x1="440" y1="12" x2="440" y2="62" stroke="#1E2C42" />
+
+    <g transform="translate(465, 18)">
+      <text x="0" y="14" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="11" font-weight="700">REWARDS CREDITED</text>
+      <text x="0" y="38" fill="#F59E0B" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="800">250K+ Credits</text>
+    </g>
+    <line x1="660" y1="12" x2="660" y2="62" stroke="#1E2C42" />
+
+    <g transform="translate(685, 18)">
+      <text x="0" y="14" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="11" font-weight="700">WITHDRAWAL SUCCESS</text>
+      <text x="0" y="38" fill="#38BDF8" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="800">99.9% Completed</text>
+    </g>
+    <line x1="885" y1="12" x2="885" y2="62" stroke="#1E2C42" />
+
+    <g transform="translate(905, 18)">
+      <rect x="0" y="6" width="115" height="30" rx="4" fill="url(#mte-emerald)" />
+      <text x="14" y="26" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="11">GET STARTED</text>
+    </g>
+  </g>
+
+  <!-- Main Split Modules: Habit Check-in Card (Left) & Wallet / Local Payout Ledger (Right) -->
+  <!-- Left Main Card: Habit Check-in & Streak Multiplier -->
+  <g transform="translate(80, 252)">
+    <rect width="505" height="305" rx="6" fill="url(#mte-card)" stroke="#1F2D44" stroke-width="1" />
+    
+    <!-- Header of card -->
+    <rect x="0" y="0" width="505" height="52" rx="6" fill="#131C2D" />
+    <circle cx="28" cy="26" r="10" fill="#064E3B" />
+    <path d="M 23 26 L 27 29 L 33 23" fill="none" stroke="#10B981" stroke-width="2" />
+    <text x="48" y="31" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="14">24-Hour Rolling Habit Check-in</text>
+    
+    <!-- Active Streak Badge -->
+    <rect x="375" y="14" width="112" height="24" rx="12" fill="#064E3B" stroke="#059669" stroke-width="1" />
+    <circle cx="388" cy="26" r="3.5" fill="#10B981" />
+    <text x="398" y="30" fill="#A7F3D0" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="11">5-DAY STREAK</text>
+
+    <!-- Estimated Reward Box -->
+    <g transform="translate(25, 72)">
+      <rect width="455" height="100" rx="6" fill="#0C1422" stroke="#1B283E" stroke-width="1" />
+      <text x="20" y="30" fill="#94A3B8" font-family="'Space Grotesk', sans-serif" font-size="12">ESTIMATED REWARD TODAY</text>
+      <text x="20" y="70" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="34">18.00 <tspan fill="#64748B" font-size="16" font-weight="500">Credits</tspan></text>
+      
+      <rect x="250" y="24" width="185" height="24" rx="4" fill="rgba(16,185,129,0.12)" />
+      <text x="262" y="40" fill="#34D399" font-family="'Space Grotesk', sans-serif" font-weight="600" font-size="11">Base 10.00 + Streak Bonus 8.00</text>
+
+      <text x="250" y="72" fill="#64748B" font-family="monospace" font-size="11">Next Milestone: Day 7 Bonus</text>
+    </g>
+
+    <!-- Streak Progress Visualizer -->
+    <g transform="translate(25, 188)">
+      <text x="0" y="14" fill="#94A3B8" font-family="sans-serif" font-size="12">Consecutive Habit Track:</text>
+      <!-- Day 1-7 dots -->
+      <g transform="translate(160, 4)">
+        <rect x="0" y="0" width="34" height="20" rx="3" fill="#059669" />
+        <text x="7" y="14" fill="#FFFFFF" font-family="'Space Grotesk', monospace" font-size="10">D1 ✓</text>
+
+        <rect x="42" y="0" width="34" height="20" rx="3" fill="#059669" />
+        <text x="49" y="14" fill="#FFFFFF" font-family="'Space Grotesk', monospace" font-size="10">D2 ✓</text>
+
+        <rect x="84" y="0" width="34" height="20" rx="3" fill="#059669" />
+        <text x="91" y="14" fill="#FFFFFF" font-family="'Space Grotesk', monospace" font-size="10">D3 ✓</text>
+
+        <rect x="126" y="0" width="34" height="20" rx="3" fill="#059669" />
+        <text x="133" y="14" fill="#FFFFFF" font-family="'Space Grotesk', monospace" font-size="10">D4 ✓</text>
+
+        <rect x="168" y="0" width="34" height="20" rx="3" fill="#10B981" />
+        <text x="175" y="14" fill="#042F2E" font-family="'Space Grotesk', monospace" font-weight="800" font-size="10">D5 ★</text>
+
+        <rect x="210" y="0" width="34" height="20" rx="3" fill="#1B283E" />
+        <text x="219" y="14" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="10">D6</text>
+
+        <rect x="252" y="0" width="42" height="20" rx="3" fill="#1B283E" stroke="#F59E0B" stroke-width="1" />
+        <text x="257" y="14" fill="#F59E0B" font-family="'Space Grotesk', monospace" font-weight="700" font-size="10">D7 2x</text>
+      </g>
+    </g>
+
+    <!-- Action Check-in Button -->
+    <g transform="translate(25, 235)">
+      <rect width="455" height="46" rx="6" fill="url(#mte-emerald)" />
+      <text x="135" y="28" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="14">PERFORM DAILY CHECK-IN NOW</text>
+      <circle cx="360" cy="23" r="5" fill="#A7F3D0" />
+    </g>
+  </g>
+
+  <!-- Right Main Card: Transparent Wallet Ledger & Local Payouts (JazzCash / EasyPaisa) -->
+  <g transform="translate(615, 252)">
+    <rect width="505" height="305" rx="6" fill="url(#mte-card)" stroke="#1F2D44" stroke-width="1" />
+    
+    <!-- Header of card -->
+    <rect x="0" y="0" width="505" height="52" rx="6" fill="#131C2D" />
+    <circle cx="28" cy="26" r="10" fill="#082F49" />
+    <text x="24" y="30" fill="#38BDF8" font-family="'Space Grotesk', monospace" font-size="13">Rs</text>
+    <text x="48" y="31" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="14">Centralized Wallet &amp; Local Payouts</text>
+    
+    <rect x="365" y="14" width="122" height="24" rx="4" fill="#0C1422" stroke="#1E293B" stroke-width="1" />
+    <text x="375" y="30" fill="#38BDF8" font-family="'Space Grotesk', monospace" font-size="10">MIN PAYOUT: RS. 70</text>
+
+    <!-- Payout Channels -->
+    <g transform="translate(25, 72)">
+      <rect width="215" height="74" rx="6" fill="#0C1422" stroke="#1E293B" stroke-width="1" />
+      <rect x="14" y="14" width="34" height="24" rx="3" fill="#EF4444" />
+      <text x="18" y="30" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="10">JAZZ</text>
+      <text x="56" y="26" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="13">JazzCash</text>
+      <text x="56" y="42" fill="#10B981" font-family="sans-serif" font-size="10">Instant Local Gateway</text>
+      <text x="14" y="60" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="10">Manual Admin Approved</text>
+    </g>
+
+    <g transform="translate(265, 72)">
+      <rect width="215" height="74" rx="6" fill="#0C1422" stroke="#1E293B" stroke-width="1" />
+      <rect x="14" y="14" width="34" height="24" rx="3" fill="#10B981" />
+      <text x="19" y="30" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="10">EP</text>
+      <text x="56" y="26" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="13">EasyPaisa</text>
+      <text x="56" y="42" fill="#10B981" font-family="sans-serif" font-size="10">Verified Direct Payout</text>
+      <text x="14" y="60" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="10">Zero Transfer Fee</text>
+    </g>
+
+    <!-- Recent Ledger Activity Records -->
+    <g transform="translate(25, 160)">
+      <text x="0" y="12" fill="#94A3B8" font-family="'Space Grotesk', monospace" font-size="11" font-weight="700">RECENT IMMUTABLE LEDGER ENTRIES</text>
+
+      <!-- Ledger row 1 -->
+      <g transform="translate(0, 24)">
+        <rect width="455" height="34" rx="4" fill="#0B1320" stroke="#182335" stroke-width="1" />
+        <text x="14" y="21" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="12">Day 5 Habit Check-in Credit</text>
+        <text x="230" y="21" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="11">24h Rolling Sync</text>
+        <text x="380" y="21" fill="#10B981" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="12">+18.00 Cr</text>
+      </g>
+
+      <!-- Ledger row 2 -->
+      <g transform="translate(0, 64)">
+        <rect width="455" height="34" rx="4" fill="#0B1320" stroke="#182335" stroke-width="1" />
+        <text x="14" y="21" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="12">EasyPaisa Payout Verified</text>
+        <text x="230" y="21" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="11">PK-TXN #88219</text>
+        <text x="380" y="21" fill="#38BDF8" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="12">Rs. 350.00</text>
+      </g>
+
+      <!-- Ledger row 3 -->
+      <g transform="translate(0, 104)">
+        <rect width="455" height="34" rx="4" fill="#0B1320" stroke="#182335" stroke-width="1" />
+        <text x="14" y="21" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="12">Anti-Cheat Time Validation</text>
+        <text x="230" y="21" fill="#64748B" font-family="'Space Grotesk', monospace" font-size="11">Server NTP Stamp</text>
+        <text x="380" y="21" fill="#A7F3D0" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="11">PASSED ✓</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Technical Engineering Footnote -->
+  <g transform="translate(80, 570)">
+    <rect width="1040" height="60" rx="4" fill="#111B2B" stroke="#1E2C42" stroke-width="1" />
+    <rect x="0" y="0" width="4" height="60" fill="url(#mte-emerald)" />
+    
+    <text x="24" y="24" fill="#94A3B8" font-family="'Space Grotesk', monospace" font-size="11" font-weight="700">FULL-STACK PRODUCTION ARCHITECTURE // FINTECH REWARDS</text>
+    <text x="24" y="44" fill="#FFFFFF" font-family="sans-serif" font-size="12">
+      Next.js App Engine · Server-Verified 24h Rolling Habit Window · JazzCash &amp; EasyPaisa Payout Pipeline · Centralized Balance Ledger
+    </text>
+    
+    <rect x="880" y="16" width="140" height="28" rx="4" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.4)" stroke-width="1" />
+    <text x="894" y="34" fill="#10B981" font-family="'Space Grotesk', monospace" font-size="11" font-weight="700">LIVE AT MYTRUSTEARN.ONLINE</text>
+  </g>
+</svg>

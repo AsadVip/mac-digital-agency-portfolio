@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p4-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24262C" />
+      <stop offset="100%" stop-color="#18191E" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#p4-bg)" />
+  <rect x="30" y="30" width="740" height="490" rx="4" fill="#1C1E24" stroke="#2F323A" stroke-width="1.5" />
+
+  <!-- Navigation bar inside preview -->
+  <line x1="30" y1="75" x2="770" y2="75" stroke="#2F323A" stroke-width="1" />
+  <text x="60" y="58" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="14">VANGUARD / SHOP</text>
+  <rect x="680" y="44" width="60" height="20" rx="2" fill="#E5A910" />
+  <text x="693" y="58" fill="#121316" font-family="sans-serif" font-weight="bold" font-size="10">CART (3)</text>
+
+  <!-- Product Grid inside -->
+  <g transform="translate(60, 105)">
+    <!-- Item 1 -->
+    <rect width="200" height="220" fill="#242730" stroke="#323642" stroke-width="1" rx="2" />
+    <rect x="15" y="15" width="170" height="130" fill="#2E323E" />
+    <circle cx="100" cy="80" r="35" fill="none" stroke="#E5A910" stroke-width="1.5" />
+    <text x="15" y="170" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="12">Chronos Watch Spec</text>
+    <text x="15" y="195" fill="#E5A910" font-family="'Space Grotesk', monospace" font-size="13">$280.00</text>
+
+    <!-- Item 2 -->
+    <g transform="translate(225, 0)">
+      <rect width="200" height="220" fill="#242730" stroke="#323642" stroke-width="1" rx="2" />
+      <rect x="15" y="15" width="170" height="130" fill="#2E323E" />
+      <polygon points="100,50 135,110 65,110" fill="none" stroke="#9CA3AF" stroke-width="1.5" />
+      <text x="15" y="170" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="12">Monolith Audio Array</text>
+      <text x="15" y="195" fill="#E5A910" font-family="'Space Grotesk', monospace" font-size="13">$450.00</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(450, 0)">
+      <rect width="200" height="220" fill="#242730" stroke="#323642" stroke-width="1" rx="2" />
+      <rect x="15" y="15" width="170" height="130" fill="#2E323E" />
+      <rect x="75" y="55" width="50" height="50" fill="none" stroke="#E5A910" stroke-width="1.5" />
+      <text x="15" y="170" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="12">Tactile Desk Pad</text>
+      <text x="15" y="195" fill="#E5A910" font-family="'Space Grotesk', monospace" font-size="13">$95.00</text>
+    </g>
+  </g>
+
+  <!-- Checkout Drawer / Micro-Interaction Simulation -->
+  <g transform="translate(60, 355)">
+    <rect width="650" height="130" fill="#15161A" stroke="#2F323A" stroke-width="1" rx="2" />
+    <rect x="0" y="0" width="4" height="130" fill="#E5A910" />
+    <text x="25" y="35" fill="#9CA3AF" font-family="monospace" font-size="11">PERFORMANCE METRIC // ZERO-DEPENDENCY CART STATE</text>
+    <text x="25" y="65" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600">Local Cache Sync: 12ms / Persistent LocalStorage Rehydration</text>
+    <text x="25" y="95" fill="#71717A" font-family="sans-serif" font-size="12">Optimized with React state reducers and strictly typed action dispatchers.</text>
+  </g>
+</svg>

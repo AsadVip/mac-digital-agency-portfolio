@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2024" />
+      <stop offset="100%" stop-color="#141518" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#p3-bg)" />
+  <rect x="30" y="30" width="740" height="490" rx="4" fill="#18191D" stroke="#2B2D35" stroke-width="1.5" />
+
+  <!-- Window Header -->
+  <rect x="30" y="30" width="740" height="46" fill="#22242B" />
+  <circle cx="55" cy="53" r="5" fill="#4B4E58" />
+  <circle cx="72" cy="53" r="5" fill="#4B4E58" />
+  <circle cx="89" cy="53" r="5" fill="#4B4E58" />
+  <text x="120" y="58" fill="#E5A910" font-family="'Space Grotesk', monospace" font-size="12">NEXUS_DB // PHP 8.2 + MYSQL INSTANCE</text>
+
+  <!-- Left Sidebar inside -->
+  <rect x="30" y="76" width="160" height="444" fill="#1B1C20" stroke="#2B2D35" stroke-width="1" />
+  <rect x="50" y="100" width="120" height="24" rx="3" fill="#282B33" />
+  <rect x="50" y="135" width="100" height="16" rx="2" fill="#202228" />
+  <rect x="50" y="165" width="110" height="16" rx="2" fill="#202228" />
+  <rect x="50" y="195" width="90" height="16" rx="2" fill="#202228" />
+  <rect x="50" y="225" width="105" height="16" rx="2" fill="#202228" />
+
+  <!-- Main Data View -->
+  <g transform="translate(210, 95)">
+    <text x="0" y="20" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="16">Relational Schema &amp; Transaction Logs</text>
+    <rect x="0" y="35" width="540" height="30" fill="#22242A" rx="2" />
+    <text x="20" y="55" fill="#9CA3AF" font-family="monospace" font-size="11">TABLE: orders_ledger (Indexed on: tenant_id, created_at)</text>
+    
+    <!-- Table Rows -->
+    <rect x="0" y="75" width="540" height="34" fill="#1E2026" />
+    <text x="15" y="97" fill="#E5A910" font-family="monospace" font-size="11">#NX-8941</text>
+    <text x="110" y="97" fill="#E4E4E7" font-family="sans-serif" font-size="11">Automated Settlement</text>
+    <text x="280" y="97" fill="#A1A1AA" font-family="monospace" font-size="11">0.003s</text>
+    <text x="440" y="97" fill="#10B981" font-family="sans-serif" font-size="11">COMMITTED</text>
+
+    <rect x="0" y="115" width="540" height="34" fill="#1B1C22" />
+    <text x="15" y="137" fill="#E5A910" font-family="monospace" font-size="11">#NX-8942</text>
+    <text x="110" y="137" fill="#E4E4E7" font-family="sans-serif" font-size="11">Inventory Deduplication</text>
+    <text x="280" y="137" fill="#A1A1AA" font-family="monospace" font-size="11">0.004s</text>
+    <text x="440" y="137" fill="#10B981" font-family="sans-serif" font-size="11">COMMITTED</text>
+
+    <rect x="0" y="155" width="540" height="34" fill="#1E2026" />
+    <text x="15" y="177" fill="#E5A910" font-family="monospace" font-size="11">#NX-8943</text>
+    <text x="110" y="177" fill="#E4E4E7" font-family="sans-serif" font-size="11">Session Auth Verify</text>
+    <text x="280" y="177" fill="#A1A1AA" font-family="monospace" font-size="11">0.001s</text>
+    <text x="440" y="177" fill="#10B981" font-family="sans-serif" font-size="11">COMMITTED</text>
+
+    <!-- Code Block / Query Preview -->
+    <rect x="0" y="210" width="540" height="180" rx="3" fill="#131417" stroke="#25272E" stroke-width="1" />
+    <rect x="0" y="210" width="540" height="26" fill="#1A1C22" />
+    <text x="15" y="227" fill="#71717A" font-family="monospace" font-size="10">PHP / SQL PREPARED STATEMENT</text>
+    
+    <text x="15" y="260" fill="#E5A910" font-family="monospace" font-size="11">$stmt = $pdo-&gt;prepare("SELECT * FROM inventory WHERE status = ?");</text>
+    <text x="15" y="285" fill="#60A5FA" font-family="monospace" font-size="11">$stmt-&gt;execute([$activeState]);</text>
+    <text x="15" y="310" fill="#A1A1AA" font-family="monospace" font-size="11">$results = $stmt-&gt;fetchAll(PDO::FETCH_ASSOC);</text>
+    <text x="15" y="335" fill="#34D399" font-family="monospace" font-size="11">// Sanitized execution pipeline with zero injection surface</text>
+    <text x="15" y="360" fill="#E4E4E7" font-family="monospace" font-size="11">echo json_encode(['data' =&gt; $results, 'duration' =&gt; $queryTime]);</text>
+  </g>
+</svg>
