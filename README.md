@@ -71,6 +71,24 @@ npm run build
 npm run preview
 ```
 
+### 🌐 Deploying to Netlify
+
+This project is pre-configured for automated Netlify deployment with:
+* **Build command**: `npm run build`
+* **Publish directory**: `dist`
+* **SPA Redirects**: Automatic fallback in `netlify.toml` and `public/_redirects`
+* **Node runtime**: Configured in `.nvmrc` and `netlify.toml` (Node.js 20+)
+
+#### Steps to deploy:
+1. Log in to [Netlify](https://app.netlify.com/).
+2. Click **"Add new site"** &rarr; **"Import an existing project"**.
+3. Choose **GitHub** and select `AsadVip/mac-digital-agency-portfolio`.
+4. Netlify will auto-detect the build settings from `netlify.toml`:
+   - **Base directory**: (leave blank / root)
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+5. Click **"Deploy site"**!
+
 ---
 
 ## 📬 Contact & Practice Info
